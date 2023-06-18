@@ -3,7 +3,7 @@
 const express = require("express");
 const ProductManager = require("./ProductManager");
 const app = express();
-const manager = new ProductManager('products.txt');
+const manager = new ProductManager('../products.txt');
 const port = 8080;
 
 
